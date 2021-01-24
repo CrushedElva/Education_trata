@@ -35,7 +35,6 @@
 		0EF7CDC624E6CAE100F01852 /* NoteEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF7CDC524E6CAE100F01852 /* NoteEditViewController.swift */; };
 		0EF7CDC824E6CB6600F01852 /* NoteEdit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EF7CDC724E6CB6600F01852 /* NoteEdit.storyboard */; };
 		235974C54E23D0044E338ED4 /* Pods_education_trata_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C3D87706C6EBEA4BB1D22BB /* Pods_education_trata_swift.framework */; };
-		56FBCAD125BC2A5200684D8F /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FBCAD025BC2A5200684D8F /* File.swift */; };
 		940DDF1124E1245B00A697BE /* СellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940DDF1024E1245B00A697BE /* СellTableViewCell.swift */; };
 		940DDF2924E2A5BA00A697BE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 940DDF2B24E2A5BA00A697BE /* Localizable.strings */; };
 		94191C02251899F800423704 /* Spending.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94191BFF251899F700423704 /* Spending.swift */; };
@@ -115,7 +114,6 @@
 		0EF7CDC524E6CAE100F01852 /* NoteEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEditViewController.swift; sourceTree = "<group>"; };
 		0EF7CDC724E6CB6600F01852 /* NoteEdit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NoteEdit.storyboard; sourceTree = "<group>"; };
 		3C3D87706C6EBEA4BB1D22BB /* Pods_education_trata_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_education_trata_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		56FBCAD025BC2A5200684D8F /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		940DDF1024E1245B00A697BE /* СellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "СellTableViewCell.swift"; sourceTree = "<group>"; };
 		940DDF1624E1247B00A697BE /* CategoriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewController.swift; sourceTree = "<group>"; };
 		940DDF2A24E2A5BA00A697BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -308,7 +306,6 @@
 		94BC7CA024F38C69008B40AC /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
-				56FBCAD025BC2A5200684D8F /* File.swift */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -631,7 +628,6 @@
 				94BC7CB124F390D6008B40AC /* AddingCategoryViewController.swift in Sources */,
 				0E82B97F2510B246007A896E /* AddCategoryAssembly.swift in Sources */,
 				0EC3F11B24DA9767003D6134 /* SettingsViewController.swift in Sources */,
-				56FBCAD125BC2A5200684D8F /* File.swift in Sources */,
 				0E82B95C2510B099007A896E /* CategoriesTableViewController.swift in Sources */,
 				0EC7E41025161A93000FA02F /* CategoryDTO.swift in Sources */,
 				0E82B9642510B21B007A896E /* QuestionsModel.swift in Sources */,
