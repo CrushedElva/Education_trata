@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SRv-Mk-qAR">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Note Edit View Controller-->
+        <scene sceneID="j0b-8c-aCj">
+            <objects>
+                <viewController id="SRv-Mk-qAR" customClass="NoteEditViewController" customModule="education_trata_swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lcb-eH-HZn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="E0B-NU-ey2" userLabel="Note Edit Table View">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="SRv-Mk-qAR" id="5vj-lf-dH7"/>
+                                    <outlet property="delegate" destination="SRv-Mk-qAR" id="IKs-Gk-JSM"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="E0B-NU-ey2" firstAttribute="top" secondItem="lcb-eH-HZn" secondAttribute="topMargin" id="Fbq-sZ-J5V"/>
+                            <constraint firstItem="E0B-NU-ey2" firstAttribute="trailing" secondItem="ZJT-A4-XKL" secondAttribute="trailing" id="PnD-Qe-eFt"/>
+                            <constraint firstItem="E0B-NU-ey2" firstAttribute="leading" secondItem="ZJT-A4-XKL" secondAttribute="leading" id="do5-eN-HuN"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="E0B-NU-ey2" secondAttribute="bottom" id="rrv-bc-WMn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZJT-A4-XKL"/>
+                    </view>
+                    <connections>
+                        <outlet property="noteEditTableView" destination="E0B-NU-ey2" id="CJ6-pc-O26"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8YK-tM-Ruu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="86.956521739130437" y="48.883928571428569"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zTM-hg-Xjz">
+    <device id="retina6_1" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Currency View Controller-->
+        <scene sceneID="Uzj-1x-PlA">
+            <objects>
+                <viewController id="zTM-hg-Xjz" customClass="CurrencyViewController" customModule="education_trata_swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uWg-L1-czt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="yTC-pW-E80">
+                                <rect key="frame" x="0.0" y="85" width="414" height="811"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CurrencyCell" id="Xmo-9L-p05" customClass="CurrencyTableViewCell" customModule="education_trata_swift" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Xmo-9L-p05" id="PJ0-wH-wWB" customClass="CurrencyTableViewCell" customModule="education_trata_swift" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c1l-5J-6bb">
+                                <rect key="frame" x="10" y="54" width="59" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="yTC-pW-E80" firstAttribute="top" secondItem="c1l-5J-6bb" secondAttribute="bottom" constant="10" id="7bm-0f-bl3"/>
+                            <constraint firstItem="JpI-Gw-hNE" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="c1l-5J-6bb" secondAttribute="trailing" constant="345" id="9vw-Fy-NuZ"/>
+                            <constraint firstItem="yTC-pW-E80" firstAttribute="centerX" secondItem="uWg-L1-czt" secondAttribute="centerX" id="Wau-Bf-Agz"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="yTC-pW-E80" secondAttribute="bottom" constant="-34" id="ZeB-AZ-c0i"/>
+                            <constraint firstItem="c1l-5J-6bb" firstAttribute="top" secondItem="JpI-Gw-hNE" secondAttribute="top" constant="10" id="kEo-O7-MGz"/>
+                            <constraint firstItem="c1l-5J-6bb" firstAttribute="leading" secondItem="JpI-Gw-hNE" secondAttribute="leading" constant="10" id="s5k-QA-1yi"/>
+                            <constraint firstItem="yTC-pW-E80" firstAttribute="leading" secondItem="JpI-Gw-hNE" secondAttribute="leading" id="vqx-KJ-uSX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="JpI-Gw-hNE"/>
+                    </view>
+                    <connections>
+                        <outlet property="labelView" destination="c1l-5J-6bb" id="6GS-Pa-9GF"/>
+                        <outlet property="tableView" destination="yTC-pW-E80" id="dqm-uo-f8T"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e8P-Uo-jD1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1.4492753623188408" y="-1.3392857142857142"/>
+        </scene>
+    </scenes>
+</document>

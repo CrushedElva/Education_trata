@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Выберите категорию"; ObjectID = "GzL-9w-eza"; */
+"GzL-9w-eza.text" = "Выберите категорию";
+
+/* Class = "UIButton"; normalTitle = "Добавить категорию"; ObjectID = "OSh-j1-1a3"; */
+"OSh-j1-1a3.normalTitle" = "Добавить категорию";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "TeI-Id-V6H"; */
+"TeI-Id-V6H.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "jz7-7X-SDy"; */
+"jz7-7X-SDy.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "Редактировать"; ObjectID = "v6k-ck-3cP"; */
+"v6k-ck-3cP.title" = "Редактировать";
+
+/* Class = "UILabel"; text = "   Категории"; ObjectID = "wMR-WM-6LW"; */
+"wMR-WM-6LW.text" = "   Категории";

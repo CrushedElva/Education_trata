@@ -1,0 +1,6 @@
+framework module Pods_education_trata_swift {
+  umbrella header "Pods-education_trata_swift-umbrella.h"
+
+  export *
+  module * { export * }
+}
